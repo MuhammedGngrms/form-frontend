@@ -427,7 +427,7 @@ function NewForm() {
                       {pumpSpecs.map(spec => (
                           <tr key={spec.key}>
                               <td className="p-1.5 border border-black font-bold bg-gray-50">{spec.label}</td>
-                              {activeTemplate.sections?.map(s => <td key={s.id} className="p-1.5 border border-black text-center">{sectionData[s.id]?.[spec.key] || '-'}</td>)}
+                              {activeTemplate.sections?.map(s => <td key={s.id} className="p-1.5 border border-black text-center">{sectionData[s.id]?.[spec.key] || ''}</td>)}
                           </tr>
                       ))}
                   </tbody>
