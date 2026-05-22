@@ -25,7 +25,7 @@ function Login() {
     const loadToast = toast.loading("Kimlik doğrulanıyor...");
 
     try {
-      const response = await api.post('/auth/login', { username, password });
+      const response = await api.post('/api/auth/login', { username, password });
       
       // 1. Önce veriyi hafızaya yazıp Context'i tetikliyoruz
       login(response.data);
