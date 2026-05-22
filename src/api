@@ -8,33 +8,32 @@ const api = axios.create({
   baseURL: API_URL, 
 });
 
-// Java'ya giden her isteğin önünü kes ve token'ı ekle
-api.interceptors.request.use(
-  (config) => {
-    const storedUser = localStorage.getItem('seba_user');
-    if (storedUser) {
-      const { token } = JSON.parse(storedUser);
-      if (token) {
-        // Java'daki JwtAuthenticationFilter'ın beklediği gümrük mührünü basıyoruz
-        config.headers['Authorization'] = `Bearer ${token}`;
-      }
-    }
-    return config;
-  },
-  (error) => {
-    return Promise.reject(error);
-  }
-);
-
-// Java'dan dönen cevapları kontrol et (Eğer token eskidiyse ve 401/403 geldiyse kullanıcıyı dışarı at)
+// Java'dan dönen cevapları kontrol et
 api.interceptors.response.use(
   (response) => response,
   (error) => {
-    if (error.response && (error.response.status === 401 || error.response.status === 403)) {
-      // Token geçersizse veya süresi bittiyse tarayıcı hafızasını temizle ve uçur
+    // 1. Durum: Sunucu uykudaysa veya internet anlık koptuysa (Response yoksa)
+    if (!error.response) {
+      console.warn("Erişim aksaması: Sunucu geç yanıt veriyor veya ağ koptu.");
+      // Kullanıcıyı dışarı ATMIYORUZ. Sadece toast mesajı gösterebilmek için hatayı fırlatıyoruz.
+      return Promise.reject(new Error("Sunucuya şu an ulaşılamıyor, lütfen tekrar deneyin."));
+    }
+
+    // 2. Durum: YALNIZCA token süresi bittiyse (401) kullanıcıyı dışarı at
+    if (error.response.status === 401) {
+      console.error("Oturum süresi doldu (401). Login'e yönlendiriliyorsunuz.");
       localStorage.removeItem('seba_user');
       window.location.href = '/login';
+      return Promise.reject(error);
     }
+
+    // 3. Durum: Yetki hatası (403) varsa kullanıcıyı sistemden ATMA, sadece sayfayı engelle
+    if (error.response.status === 403) {
+      console.warn("Yetkisiz alan (403): Kullanıcı içeride kalmaya devam ediyor.");
+      return Promise.reject(error);
+    }
+
+    // Diğer tüm hatalarda (500, 404 vb.) kullanıcıyı içeride tut
     return Promise.reject(error);
   }
 );
