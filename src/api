@@ -1,0 +1,39 @@
+import axios from 'axios';
+
+const api = axios.create({
+  baseURL: 'http://localhost:8080/api', // Java Backend adresi
+  withCredentials: true
+});
+
+// Java'ya giden her isteğin önünü kes ve token'ı ekle
+api.interceptors.request.use(
+  (config) => {
+    const storedUser = localStorage.getItem('seba_user');
+    if (storedUser) {
+      const { token } = JSON.parse(storedUser);
+      if (token) {
+        // Java'daki JwtAuthenticationFilter'ın beklediği gümrük mührünü basıyoruz
+        config.headers['Authorization'] = `Bearer ${token}`;
+      }
+    }
+    return config;
+  },
+  (error) => {
+    return Promise.reject(error);
+  }
+);
+
+// Java'dan dönen cevapları kontrol et (Eğer token eskidiyse ve 401/403 geldiyse kullanıcıyı dışarı at)
+api.interceptors.response.use(
+  (response) => response,
+  (error) => {
+    if (error.response && (error.response.status === 401 || error.response.status === 403)) {
+      // Token geçersizse veya süresi bittiyse tarayıcı hafızasını temizle ve uçur
+      localStorage.removeItem('seba_user');
+      window.location.href = '/login';
+    }
+    return Promise.reject(error);
+  }
+);
+
+export default api;

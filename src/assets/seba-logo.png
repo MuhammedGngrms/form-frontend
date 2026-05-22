@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+  <title>NM Fire Türkiye</title>
+  <meta name="description" content="">
+  <link rel="stylesheet" href="http://nmfireturkiye.com/en/css/standardize.css?v=2022-02-02 11:44:09">
+<link rel="stylesheet" href="http://nmfireturkiye.com/en/css/styles.css">
+<link rel="stylesheet" href="http://nmfireturkiye.com/en/css/ek.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="http://nmfireturkiye.com/en/yonetim/uploads/image/fav.png" type="image/x-icon">  <style>
+    .anasayfa-hakkimizda:after{display:none}
+  </style>
+</head>
+<body class="body clearfix">
+  <header class="header clearfix">
+  <div class="header-ust clearfix">
+    <div class="ustbar-div clearfix">
+      <div class="ustbar clearfix">
+        <div class="ustbar-ic clearfix">
+          <div class="ustbar-bilgi-div clearfix">
+            <a id="email" class="ustbar-email" href="mailto:info@nmfireturkiye.com">info@nmfireturkiye.com</a>
+          </div>
+          <div class="ustbar-bilgi-div clearfix">
+            <a id="tel" class="ustbar-tel" href="tel:+90 212 995 0 310">+90 212 995 0 310</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header-alt clearfix">
+    <div class="header-alt-ic clearfix">
+      <div class="logo-div clearfix">
+        <a class="logo-baglanti clearfix" href="http://nmfireturkiye.com/en/">
+          <img class="logo" src="http://nmfireturkiye.com/en/yonetim/uploads/image/nm-fire.png" alt="NM Fire Türkiye">
+        </a>
+      </div>
+      <nav class="anamenu-nav clearfix">
+        <ul class="anamenu-ul clearfix">
+                              <a class="menu-baglanti" href="http://nmfireturkiye.com/en/index.php">Home</a>
+                    <a class="menu-baglanti" href="http://nmfireturkiye.com/en/kurumsal.php">About</a>
+                    <a class="menu-baglanti" href="http://nmfireturkiye.com/en/urunler.php">Products</a>
+                    <a class="menu-baglanti" href="http://nmfireturkiye.com/en/iletisim.php">Contact</a>
+                    <a class="menu-baglanti" href="http://nmfireturkiye.com/">TR</a>
+                            </ul>
+      </nav>
+      <nav class="pushy pushy-right">
+    <div class="pushy-content">
+        <ul>
+                                    <li class="pushy-link"><a href="http://nmfireturkiye.com/en/index.php">Home</a></li>
+                        <li class="pushy-link"><a href="http://nmfireturkiye.com/en/kurumsal.php">About</a></li>
+                        <li class="pushy-link"><a href="http://nmfireturkiye.com/en/urunler.php">Products</a></li>
+                        <li class="pushy-link"><a href="http://nmfireturkiye.com/en/iletisim.php">Contact</a></li>
+                        <li class="pushy-link"><a href="http://nmfireturkiye.com/">TR</a></li>
+                                </ul>
+    </div>
+</nav>
+
+<!-- Site Overlay -->
+<div class="site-overlay"></div>
+
+<!-- Your Content -->
+<div id="container">
+    <!-- Menu Button -->
+    <button class="menu-btn menu-baglanti">&#9776; Menu</button>
+</div>
+    </div>
+  </div>
+</header>  <section class="slayt-section">
+        <div style="background-image:url(http://nmfireturkiye.com/en/yonetim/uploads/image/slide-1.jpg);" class="slayt-div">
+      <div class="slayt-konteyner clearfix">
+        <div class="slayt-icerik clearfix">
+          <h2 class="slayt-h2"></h2>
+          <p class="slayt-p"></p>
+                  </div>
+      </div>
+    </div>
+        <div style="background-image:url(http://nmfireturkiye.com/en/yonetim/uploads/image/slide-2.jpg);" class="slayt-div">
+      <div class="slayt-konteyner clearfix">
+        <div class="slayt-icerik clearfix">
+          <h2 class="slayt-h2"></h2>
+          <p class="slayt-p"></p>
+                  </div>
+      </div>
+    </div>
+        <div style="background-image:url(http://nmfireturkiye.com/en/yonetim/uploads/image/slide-3.jpg);" class="slayt-div">
+      <div class="slayt-konteyner clearfix">
+        <div class="slayt-icerik clearfix">
+          <h2 class="slayt-h2"></h2>
+          <p class="slayt-p"></p>
+                  </div>
+      </div>
+    </div>
+      </section>
+  <section class="section-50 clearfix">
+    <div class="anasayfa-urunler-konteyner clearfix">
+      <h3 class="anasayfa-h3">Featured Products</h3>
+      <div class="anasayfa-urunler clearfix">
+                <div class="kolon-1-4 clearfix">
+          <div class="anasayfa-urun-div clearfix">
+              <div class="anasayfa-urun-gorsel-div">
+                <a href="http://nmfireturkiye.com/en/urunler.php?p=27" style="background: url(http://nmfireturkiye.com/en/yonetim/uploads/image/urunler/acil-su-temini-ve-drenaj-tesisleri.png) rgb(222, 222, 222);background-size:cover;background-position: center center;background-repeat:no-repeat;" class="anasayfa-urun-gorsel"></a>
+              </div>
+              <div class="anasayfa-urun-icerik clearfix">
+                <h3 class="anasayfa-urun-adi">Emergency Water Supply and Drainage Facilities</h3>
+                <p class="anasayfa-urun-kategori">Emergency Water Supply</p>
+                <div class="anasayfa-urun-baglanti-div clearfix">
+                  <a class="anasayfa-urun-baglanti" href="http://nmfireturkiye.com/en/urunler.php?p=27">Details</a>
+                </div>
+              </div>
+            </div>
+        </div>
+                <div class="kolon-1-4 clearfix">
+          <div class="anasayfa-urun-div clearfix">
+              <div class="anasayfa-urun-gorsel-div">
+                <a href="http://nmfireturkiye.com/en/urunler.php?p=26" style="background: url(http://nmfireturkiye.com/en/yonetim/uploads/image/urunler/yakit-tanki.png) rgb(222, 222, 222);background-size:cover;background-position: center center;background-repeat:no-repeat;" class="anasayfa-urun-gorsel"></a>
+              </div>
+              <div class="anasayfa-urun-icerik clearfix">
+                <h3 class="anasayfa-urun-adi">Fuel Tank</h3>
+                <p class="anasayfa-urun-kategori">Fuel Tank</p>
+                <div class="anasayfa-urun-baglanti-div clearfix">
+                  <a class="anasayfa-urun-baglanti" href="http://nmfireturkiye.com/en/urunler.php?p=26">Details</a>
+                </div>
+              </div>
+            </div>
+        </div>
+                <div class="kolon-1-4 clearfix">
+          <div class="anasayfa-urun-div clearfix">
+              <div class="anasayfa-urun-gorsel-div">
+                <a href="http://nmfireturkiye.com/en/urunler.php?p=25" style="background: url(http://nmfireturkiye.com/en/yonetim/uploads/image/urunler/yangin-pompasi-akis-olcer-fm-onayi.png) rgb(222, 222, 222);background-size:cover;background-position: center center;background-repeat:no-repeat;" class="anasayfa-urun-gorsel"></a>
+              </div>
+              <div class="anasayfa-urun-icerik clearfix">
+                <h3 class="anasayfa-urun-adi">Fire Pump Flow Meter  (FM Approval）</h3>
+                <p class="anasayfa-urun-kategori">Accessories</p>
+                <div class="anasayfa-urun-baglanti-div clearfix">
+                  <a class="anasayfa-urun-baglanti" href="http://nmfireturkiye.com/en/urunler.php?p=25">Details</a>
+                </div>
+              </div>
+            </div>
+        </div>
+                <div class="kolon-1-4 clearfix">
+          <div class="anasayfa-urun-div clearfix">
+              <div class="anasayfa-urun-gorsel-div">
+                <a href="http://nmfireturkiye.com/en/urunler.php?p=24" style="background: url(http://nmfireturkiye.com/en/yonetim/uploads/image/urunler/kontrolor.png) rgb(222, 222, 222);background-size:cover;background-position: center center;background-repeat:no-repeat;" class="anasayfa-urun-gorsel"></a>
+              </div>
+              <div class="anasayfa-urun-icerik clearfix">
+                <h3 class="anasayfa-urun-adi">Controller</h3>
+                <p class="anasayfa-urun-kategori">Accessories</p>
+                <div class="anasayfa-urun-baglanti-div clearfix">
+                  <a class="anasayfa-urun-baglanti" href="http://nmfireturkiye.com/en/urunler.php?p=24">Details</a>
+                </div>
+              </div>
+            </div>
+        </div>
+                <div class="kolon-1-4 clearfix">
+          <div class="anasayfa-urun-div clearfix">
+              <div class="anasayfa-urun-gorsel-div">
+                <a href="http://nmfireturkiye.com/en/urunler.php?p=23" style="background: url(http://nmfireturkiye.com/en/yonetim/uploads/image/urunler/nfpa20-kapali-paket-sistem.png) rgb(222, 222, 222);background-size:cover;background-position: center center;background-repeat:no-repeat;" class="anasayfa-urun-gorsel"></a>
+              </div>
+              <div class="anasayfa-urun-icerik clearfix">
+                <h3 class="anasayfa-urun-adi">NFPA20 Enclosed Packaged System</h3>
+                <p class="anasayfa-urun-kategori">Fire Pump Group</p>
+                <div class="anasayfa-urun-baglanti-div clearfix">
+                  <a class="anasayfa-urun-baglanti" href="http://nmfireturkiye.com/en/urunler.php?p=23">Details</a>
+                </div>
+              </div>
+            </div>
+        </div>
+                <div class="kolon-1-4 clearfix">
+          <div class="anasayfa-urun-div clearfix">
+              <div class="anasayfa-urun-gorsel-div">
+                <a href="http://nmfireturkiye.com/en/urunler.php?p=22" style="background: url(http://nmfireturkiye.com/en/yonetim/uploads/image/urunler/nfpa20-konteynerli-yangin-sondurme-pompa-setleri.png) rgb(222, 222, 222);background-size:cover;background-position: center center;background-repeat:no-repeat;" class="anasayfa-urun-gorsel"></a>
+              </div>
+              <div class="anasayfa-urun-icerik clearfix">
+                <h3 class="anasayfa-urun-adi">NFPA20 containerised Fire-fighting Pump Sets</h3>
+                <p class="anasayfa-urun-kategori">Fire Pump Group</p>
+                <div class="anasayfa-urun-baglanti-div clearfix">
+                  <a class="anasayfa-urun-baglanti" href="http://nmfireturkiye.com/en/urunler.php?p=22">Details</a>
+                </div>
+              </div>
+            </div>
+        </div>
+                <div class="kolon-1-4 clearfix">
+          <div class="anasayfa-urun-div clearfix">
+              <div class="anasayfa-urun-gorsel-div">
+                <a href="http://nmfireturkiye.com/en/urunler.php?p=21" style="background: url(http://nmfireturkiye.com/en/yonetim/uploads/image/urunler/jokey-pompa-grubu.png) rgb(222, 222, 222);background-size:cover;background-position: center center;background-repeat:no-repeat;" class="anasayfa-urun-gorsel"></a>
+              </div>
+              <div class="anasayfa-urun-icerik clearfix">
+                <h3 class="anasayfa-urun-adi">Jockey Pump Group</h3>
+                <p class="anasayfa-urun-kategori">Fire Pump Group</p>
+                <div class="anasayfa-urun-baglanti-div clearfix">
+                  <a class="anasayfa-urun-baglanti" href="http://nmfireturkiye.com/en/urunler.php?p=21">Details</a>
+                </div>
+              </div>
+            </div>
+        </div>
+                <div class="kolon-1-4 clearfix">
+          <div class="anasayfa-urun-div clearfix">
+              <div class="anasayfa-urun-gorsel-div">
+                <a href="http://nmfireturkiye.com/en/urunler.php?p=20" style="background: url(http://nmfireturkiye.com/en/yonetim/uploads/image/urunler/dikey-turbinli-yangin-pompasi-grubu.png) rgb(222, 222, 222);background-size:cover;background-position: center center;background-repeat:no-repeat;" class="anasayfa-urun-gorsel"></a>
+              </div>
+              <div class="anasayfa-urun-icerik clearfix">
+                <h3 class="anasayfa-urun-adi">Vertical Turbine Fire Pump Group</h3>
+                <p class="anasayfa-urun-kategori">Fire Pump Group</p>
+                <div class="anasayfa-urun-baglanti-div clearfix">
+                  <a class="anasayfa-urun-baglanti" href="http://nmfireturkiye.com/en/urunler.php?p=20">Details</a>
+                </div>
+              </div>
+            </div>
+        </div>
+                <div class="kolon-1-4 clearfix">
+          <div class="anasayfa-urun-div clearfix">
+              <div class="anasayfa-urun-gorsel-div">
+                <a href="http://nmfireturkiye.com/en/urunler.php?p=19" style="background: url(http://nmfireturkiye.com/en/yonetim/uploads/image/urunler/dizel-motorlu-yangin-pompasi-suruculeri.png) rgb(222, 222, 222);background-size:cover;background-position: center center;background-repeat:no-repeat;" class="anasayfa-urun-gorsel"></a>
+              </div>
+              <div class="anasayfa-urun-icerik clearfix">
+                <h3 class="anasayfa-urun-adi">Diesel Engine Fire Pump Drivers</h3>
+                <p class="anasayfa-urun-kategori">Fire Fighting Diesel Engine</p>
+                <div class="anasayfa-urun-baglanti-div clearfix">
+                  <a class="anasayfa-urun-baglanti" href="http://nmfireturkiye.com/en/urunler.php?p=19">Details</a>
+                </div>
+              </div>
+            </div>
+        </div>
+                <div class="kolon-1-4 clearfix">
+          <div class="anasayfa-urun-div clearfix">
+              <div class="anasayfa-urun-gorsel-div">
+                <a href="http://nmfireturkiye.com/en/urunler.php?p=18" style="background: url(http://nmfireturkiye.com/en/yonetim/uploads/image/urunler/sirali-tip-santrifuj-yangin-pompalari.png) rgb(222, 222, 222);background-size:cover;background-position: center center;background-repeat:no-repeat;" class="anasayfa-urun-gorsel"></a>
+              </div>
+              <div class="anasayfa-urun-icerik clearfix">
+                <h3 class="anasayfa-urun-adi">Centrifugal Fire Pumps In-Line Type</h3>
+                <p class="anasayfa-urun-kategori">Fire Pump Group</p>
+                <div class="anasayfa-urun-baglanti-div clearfix">
+                  <a class="anasayfa-urun-baglanti" href="http://nmfireturkiye.com/en/urunler.php?p=18">Details</a>
+                </div>
+              </div>
+            </div>
+        </div>
+                <div class="kolon-1-4 clearfix">
+          <div class="anasayfa-urun-div clearfix">
+              <div class="anasayfa-urun-gorsel-div">
+                <a href="http://nmfireturkiye.com/en/urunler.php?p=17" style="background: url(http://nmfireturkiye.com/en/yonetim/uploads/image/urunler/uctan-emisli-yangin-pompasi-grubu.png) rgb(222, 222, 222);background-size:cover;background-position: center center;background-repeat:no-repeat;" class="anasayfa-urun-gorsel"></a>
+              </div>
+              <div class="anasayfa-urun-icerik clearfix">
+                <h3 class="anasayfa-urun-adi">End Suction Fire Pump Group</h3>
+                <p class="anasayfa-urun-kategori">Fire Pump Group</p>
+                <div class="anasayfa-urun-baglanti-div clearfix">
+                  <a class="anasayfa-urun-baglanti" href="http://nmfireturkiye.com/en/urunler.php?p=17">Details</a>
+                </div>
+              </div>
+            </div>
+        </div>
+                <div class="kolon-1-4 clearfix">
+          <div class="anasayfa-urun-div clearfix">
+              <div class="anasayfa-urun-gorsel-div">
+                <a href="http://nmfireturkiye.com/en/urunler.php?p=16" style="background: url(http://nmfireturkiye.com/en/yonetim/uploads/image/urunler/split-case-yangin-pompasi-grubu.png) rgb(222, 222, 222);background-size:cover;background-position: center center;background-repeat:no-repeat;" class="anasayfa-urun-gorsel"></a>
+              </div>
+              <div class="anasayfa-urun-icerik clearfix">
+                <h3 class="anasayfa-urun-adi">Split-case Fire Pump Group</h3>
+                <p class="anasayfa-urun-kategori">Fire Pump Group</p>
+                <div class="anasayfa-urun-baglanti-div clearfix">
+                  <a class="anasayfa-urun-baglanti" href="http://nmfireturkiye.com/en/urunler.php?p=16">Details</a>
+                </div>
+              </div>
+            </div>
+        </div>
+              </div>
+      <div class="sag-baglanti-div clearfix">
+        <a class="sag-baglanti" href="http://nmfireturkiye.com/en/urunler.php">All Products</a>
+      </div>
+    </div>
+  </section>
+  <section class="anasayfa-hakkimizda clearfix">
+    <div class="konteyner clearfix">
+      <div class="kolon-1-2 clearfix">
+        <div class="anasayfa-hakkimizda-div clearfix">
+          <h1 class="anasayfa-h1">NM Fire Türkiye</h1>
+          <p>CNP NM FIRE-fighting System Co.,Ltd is a leading manufacturer of fire pumps, diesel engines, controllers, diesel engine driven fire pump set, electric motor driven fire pump set, fire pump package system and containerized fire pump package system in accordance with domestic &amp; international standards. We are a member of the National Fire Protection Association (NFPA) and the European Fire Sprinkler Network (EFSN). The technical team consists of a number of engineers and foreign experts who have more than 20 years of experience in research and development for global fire-fighting equipment. We can offer you a wide range of fire pumps and diesel engines which have gotten UL, FM(America), APSAD(France), SETSCO(Singapore) certificates that meet every fire protection needed.</p>          <a id="sag-ok" class="eflatun-buton" href="http://nmfireturkiye.com/en/kurumsal.php">About Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section style="display:none" class="section-50 clearfix">
+    <div class="konteyner clearfix">
+      <h3 class="anasayfa-h3">References</h3>
+      <div class="anasayfa-referanslar clearfix">
+                        <div class="kolon-1-5 clearfix">
+          <div class="referans-gorsel-div clearfix">
+            <div style="background-image: url(http://nmfireturkiye.com/en/yonetim/uploads/image/referanslar/1.png);" class="referans-gorsel"></div>
+          </div>
+        </div>
+                <div class="kolon-1-5 clearfix">
+          <div class="referans-gorsel-div clearfix">
+            <div style="background-image: url(http://nmfireturkiye.com/en/yonetim/uploads/image/referanslar/2.png);" class="referans-gorsel"></div>
+          </div>
+        </div>
+                <div class="kolon-1-5 clearfix">
+          <div class="referans-gorsel-div clearfix">
+            <div style="background-image: url(http://nmfireturkiye.com/en/yonetim/uploads/image/referanslar/3.png);" class="referans-gorsel"></div>
+          </div>
+        </div>
+                <div class="kolon-1-5 clearfix">
+          <div class="referans-gorsel-div clearfix">
+            <div style="background-image: url(http://nmfireturkiye.com/en/yonetim/uploads/image/referanslar/4.png);" class="referans-gorsel"></div>
+          </div>
+        </div>
+                <div class="kolon-1-5 clearfix">
+          <div class="referans-gorsel-div clearfix">
+            <div style="background-image: url(http://nmfireturkiye.com/en/yonetim/uploads/image/referanslar/5.png);" class="referans-gorsel"></div>
+          </div>
+        </div>
+                <div class="kolon-1-5 clearfix">
+          <div class="referans-gorsel-div clearfix">
+            <div style="background-image: url(http://nmfireturkiye.com/en/yonetim/uploads/image/referanslar/6.png);" class="referans-gorsel"></div>
+          </div>
+        </div>
+                <div class="kolon-1-5 clearfix">
+          <div class="referans-gorsel-div clearfix">
+            <div style="background-image: url(http://nmfireturkiye.com/en/yonetim/uploads/image/referanslar/7.png);" class="referans-gorsel"></div>
+          </div>
+        </div>
+                <div class="kolon-1-5 clearfix">
+          <div class="referans-gorsel-div clearfix">
+            <div style="background-image: url(http://nmfireturkiye.com/en/yonetim/uploads/image/referanslar/8.png);" class="referans-gorsel"></div>
+          </div>
+        </div>
+                <div class="kolon-1-5 clearfix">
+          <div class="referans-gorsel-div clearfix">
+            <div style="background-image: url(http://nmfireturkiye.com/en/yonetim/uploads/image/referanslar/9.png);" class="referans-gorsel"></div>
+          </div>
+        </div>
+                <div class="kolon-1-5 clearfix">
+          <div class="referans-gorsel-div clearfix">
+            <div style="background-image: url(http://nmfireturkiye.com/en/yonetim/uploads/image/referanslar/10.png);" class="referans-gorsel"></div>
+          </div>
+        </div>
+                <div class="kolon-1-5 clearfix">
+          <div class="referans-gorsel-div clearfix">
+            <div style="background-image: url(http://nmfireturkiye.com/en/yonetim/uploads/image/referanslar/11.png);" class="referans-gorsel"></div>
+          </div>
+        </div>
+                <div class="kolon-1-5 clearfix">
+          <div class="referans-gorsel-div clearfix">
+            <div style="background-image: url(http://nmfireturkiye.com/en/yonetim/uploads/image/referanslar/12.png);" class="referans-gorsel"></div>
+          </div>
+        </div>
+                <div class="kolon-1-5 clearfix">
+          <div class="referans-gorsel-div clearfix">
+            <div style="background-image: url(http://nmfireturkiye.com/en/yonetim/uploads/image/referanslar/13.png);" class="referans-gorsel"></div>
+          </div>
+        </div>
+                <div class="kolon-1-5 clearfix">
+          <div class="referans-gorsel-div clearfix">
+            <div style="background-image: url(http://nmfireturkiye.com/en/yonetim/uploads/image/referanslar/14.png);" class="referans-gorsel"></div>
+          </div>
+        </div>
+                <div class="kolon-1-5 clearfix">
+          <div class="referans-gorsel-div clearfix">
+            <div style="background-image: url(http://nmfireturkiye.com/en/yonetim/uploads/image/referanslar/15.png);" class="referans-gorsel"></div>
+          </div>
+        </div>
+                      </div>
+    </div>
+  </section>
+  <footer class="footer clearfix">
+
+	<div class="footer-ust clearfix">
+
+		<div class="konteyner clearfix">
+
+			<div class="footer-kutu-kucuk clearfix">
+
+				<div class="h5 footer-menu">Menu</div>
+
+				
+                
+				<a class="footer-link" href="http://nmfireturkiye.com/en/index.php">Home</a>
+
+				
+				<a class="footer-link" href="http://nmfireturkiye.com/en/kurumsal.php">About</a>
+
+				
+				<a class="footer-link" href="http://nmfireturkiye.com/en/urunler.php">Products</a>
+
+				
+				<a class="footer-link" href="http://nmfireturkiye.com/en/iletisim.php">Contact</a>
+
+				
+				<a class="footer-link" href="http://nmfireturkiye.com/">TR</a>
+
+				
+                
+			</div>
+
+			<div class="footer-kutu clearfix">
+
+				<p class="h5 footer-firma">NM Fire Türkiye</p>
+
+				<a id="adres" class="footer-iletisim">Cihangir Mah. Şehit Jan. Kom. Er Zafer Kızıltaş Sok. No:9/C Avcılar / İstanbul - Türkiye</a>
+
+				<a id="tel" class="footer-iletisim" href="tel:+90 212 995 0 310">+90 212 995 0 310</a>
+
+				<a id="email" class="footer-iletisim" href="mailto:info@nmfireturkiye.com">info@nmfireturkiye.com</a>
+
+			</div>
+
+			<div style="display:none" class="footer-kutu-sag clearfix">
+
+				<p class="h5 footer-sosyal-medya">Sosyal Medya</p>
+
+				<a id="facebook" class="footer-iletisim" href="#">Facebook</a>
+
+				<a id="twitter" class="footer-iletisim" href="#">Twitter</a>
+
+				<a id="instagram" class="footer-iletisim" href="#">Instagram</a>
+
+				<a id="linkedin" class="footer-iletisim" href="#">LinkedIn</a>
+
+				<a id="youtube" class="footer-iletisim" href="#">Youtube</a>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="footer-alt clearfix">
+
+		<div class="konteyner clearfix">
+
+			<p class="telif">© 2026 NM Fire Türkiye - All rights reserved.</p>
+
+		</div>
+
+	</div>
+
+	<img class="footer-logo" src="images/footer-logo.png">
+
+</footer>  <script src="http://nmfireturkiye.com/en/js/jquery-min.js"></script>
+<script src="http://nmfireturkiye.com/en/js/ek.js"></script>
+
+<script>
+var acc = document.getElementsByClassName("akordiyon");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+<script type="text/javascript">
+  $('.anasayfa-urunler').flickity({
+    cellAlign: 'left',
+    contain: true,
+    autoPlay: true,
+    wrapAround: true,
+    pageDots: false,
+    resize:true,
+    adaptiveHeight: true
+  });
+</script>
+
+<script type="text/javascript">
+  $('.slayt-section').flickity({
+    cellAlign: 'left',
+    contain: true,
+    autoPlay: true,
+    wrapAround: true,
+    prevNextButtons: false,
+    resize:true,
+    adaptiveHeight: true
+  });
+</script>  <script type="text/javascript">
+  $('.anasayfa-referanslar').flickity({
+    cellAlign: 'left',
+    contain: true,
+    autoPlay: true,
+    wrapAround: true,
+    pageDots: false,
+    prevNextButtons: false,
+    resize:true,
+    adaptiveHeight: true
+  });
+</script>
+</body>
+</html>
