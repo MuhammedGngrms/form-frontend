@@ -38,4 +38,19 @@ api.interceptors.response.use(
   }
 );
 
+api.interceptors.request.use(
+  (config) => {
+    const storedUser = localStorage.getItem('seba_user');
+    if (storedUser) {
+      const { token } = JSON.parse(storedUser);
+      if (token) {
+        // Axios'un header nesnesine doğrudan güvenli atama yapalım
+        config.headers.set('Authorization', `Bearer ${token}`);
+      }
+    }
+    return config;
+  },
+  (error) => Promise.reject(error)
+);
+
 export default api;
