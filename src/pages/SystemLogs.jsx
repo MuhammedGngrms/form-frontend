@@ -22,7 +22,7 @@ function SystemLogs() {
     setIsLoading(true);
     try {
       // Backend'e sayfa numarası, boyutu ve filtreyi gönderiyoruz
-      const response = await api.get('/admin/logs', {
+      const response = await api.get('/api/admin/logs', {
         params: {
           page: currentPage,
           size: pageSize,

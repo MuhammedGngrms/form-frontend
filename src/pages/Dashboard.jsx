@@ -26,11 +26,11 @@ function Dashboard() {
     const fetchDashboardData = async () => {
       try {
         // 1. İstatistikleri Çek
-        const statsRes = await api.get('/dashboard/stats');
+        const statsRes = await api.get('/api/api/dashboard/stats');
         setStats(statsRes.data);
 
         // 2. Son Kayıtları Çek (Arşiv uç noktasından ilk sayfayı (0) ve 5 kaydı istiyoruz)
-        const recentRes = await api.get('/forms/submittedWithPage', {
+        const recentRes = await api.get('/api/forms/submittedWithPage', {
           params: { page: 0, size: 5, search: '' }
         });
         // Backend Page yapısı dönüyorsa content'i al, düz liste dönüyorsa array'i al (Yedekli mimari)

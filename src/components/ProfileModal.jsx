@@ -37,7 +37,7 @@ function ProfileModal({ isOpen, onClose }) {
 
     try {
       // Java Backend'de yazdığımız /api/auth/change-password ucuna istek atıyoruz
-      await api.post('/auth/change-password', {
+      await api.post('/api/auth/change-password', {
         oldPassword,
         newPassword
       });

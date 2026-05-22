@@ -17,7 +17,7 @@ function UserManagement() {
   const fetchUsers = async () => {
     setIsLoading(true);
     try {
-      const response = await api.get('/admin/users');
+      const response = await api.get('/api/admin/users');
       setUsers(response.data);
     } catch (error) {
       console.error(error);
@@ -45,7 +45,7 @@ function UserManagement() {
 
     setIsSubmitting(true);
     try {
-      await api.post('/admin/users', {
+      await api.post('/api/admin/users', {
         username: username.trim(),
         password: password
       });
@@ -67,7 +67,7 @@ function UserManagement() {
   // 3. KULLANICI AKTİF / PASİF DURUMUNU DEĞİŞTİRME (Toggle Status)
   const handleToggleStatus = async (userId, currentUsername) => {
     try {
-      await api.put(`/admin/users/${userId}/toggle`);
+      await api.put(`/api/admin/users/${userId}/toggle`);
       toast.success(`${currentUsername} personeli durumu güncellendi.`);
       fetchUsers(); // Durumu ekranda hemen yansıtmak için listeyi tazele
     } catch (error) {

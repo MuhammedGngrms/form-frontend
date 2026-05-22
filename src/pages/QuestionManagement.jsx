@@ -19,7 +19,7 @@ function QuestionManagement() {
 
   const fetchQuestions = async () => {
     try {
-      const response = await api.get('/forms/templates/1/questions');
+      const response = await api.get('/api/forms/templates/1/questions');
       setQuestions(response.data);
     } catch (error) {
       console.error(error);
@@ -40,7 +40,7 @@ function QuestionManagement() {
     const loadToast = toast.loading("Kontrol maddesi ekleniyor...");
     try {
       const nextOrder = questions.length + 1;
-      await api.post('/questions', {
+      await api.post('/api/questions', {
         questionText: newQuestionText,
         inputType: newInputType,
         orderIndex: nextOrder
@@ -70,7 +70,7 @@ function QuestionManagement() {
     }
     const loadToast = toast.loading("Madde güncelleniyor...");
     try {
-      await api.put(`/questions/${q.id}`, {
+      await api.put(`/api/questions/${q.id}`, {
         questionText: editingText,
         inputType: editingType,
         orderIndex: q.orderIndex
@@ -88,7 +88,7 @@ function QuestionManagement() {
   const confirmTogglePassive = async (id) => {
     const loadToast = toast.loading("Madde gizleniyor...");
     try {
-      await api.delete(`/questions/${id}`);
+      await api.delete(`/api/questions/${id}`);
       toast.success("Madde pasif yapıldı (Formlardan gizlendi).", { id: loadToast });
       setConfirmingId(null); // İşlem bitince onayı kapat
       fetchQuestions();
@@ -101,7 +101,7 @@ function QuestionManagement() {
   const handleToggleActive = async (q) => {
     const loadToast = toast.loading("Madde aktif ediliyor...");
     try {
-      await api.put(`/questions/${q.id}`, {
+      await api.put(`/api/questions/${q.id}`, {
         questionText: q.questionText,
         inputType: q.inputType,
         orderIndex: q.orderIndex,

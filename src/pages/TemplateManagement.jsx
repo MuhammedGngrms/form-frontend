@@ -21,7 +21,7 @@ function TemplateManagement() {
 
   const fetchTemplates = async () => {
     try {
-      const response = await api.get('/forms/templates');
+      const response = await api.get('/api/forms/templates');
       setTemplates(response.data);
     } catch (error) {
       toast.error("Şablonlar yüklenemedi!");
@@ -43,7 +43,7 @@ function TemplateManagement() {
   const handleEditTemplate = async (id) => {
     const loadToast = toast.loading("Şablon verileri çekiliyor...");
     try {
-      const response = await api.get(`/forms/templates/${id}`);
+      const response = await api.get(`/api/forms/templates/${id}`);
       const t = response.data;
       
       // Gelen veriyi form state'imize uyarlıyoruz (Sürükle-bırak/Düzenleme yapabilmek için tempId ekliyoruz)
@@ -155,11 +155,11 @@ function TemplateManagement() {
 
       if (editingTemplateId) {
         // DÜZENLEME (UPDATE)
-        await api.put(`/forms/templates/${editingTemplateId}`, payload);
+        await api.put(`/api/forms/templates/${editingTemplateId}`, payload);
         toast.success("Şablon başarıyla güncellendi!", { id: loadToast });
       } else {
         // YENİ OLUŞTURMA (CREATE)
-        await api.post('/forms/templates', payload);
+        await api.post('/api/forms/templates', payload);
         toast.success("Yeni Şablon kullanıma hazır!", { id: loadToast });
       }
       

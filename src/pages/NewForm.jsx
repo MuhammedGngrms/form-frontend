@@ -54,10 +54,10 @@ function NewForm() {
   useEffect(() => {
     const fetchInitialData = async () => {
       try {
-        const companyRes = await api.get('/companies?status=S');
+        const companyRes = await api.get('/api/companies?status=S');
         setCompanies(companyRes.data);
 
-        const templateRes = await api.get('/forms/templates');
+        const templateRes = await api.get('/api/forms/templates');
         // Sadece aktif şablonları filtrele (Opsiyonel)
         setTemplates(templateRes.data.filter(t => t.status !== 'D'));
       } catch (error) { 
@@ -176,7 +176,7 @@ function NewForm() {
 
     try {
       // NOKTA ATIŞI: Java Controller'daki @PostMapping("/submit") ucuyla eşitledik!
-      await api.post('/forms/submit', payload); 
+      await api.post('/api/forms/submit', payload); 
       
       toast.success("Müthiş! Yangın bakım formu sisteme başarıyla işlendi.", { id: loadingToast });
       

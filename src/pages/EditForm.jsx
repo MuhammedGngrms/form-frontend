@@ -65,7 +65,7 @@ function EditForm() {
     const fetchFormDetails = async () => {
       try {
         setIsLoading(true);
-        const response = await api.get(`/forms/submitted/${id}`);
+        const response = await api.get(`/api/forms/submitted/${id}`);
         const dto = response.data; 
         const fForm = dto.filledForm; 
 
@@ -221,7 +221,7 @@ function EditForm() {
     };
 
     try {
-      await api.put(`/forms/submitted/${id}`, payload); 
+      await api.put(`/api/forms/submitted/${id}`, payload); 
       toast.success("Form başarıyla güncellendi!", { id: loadingToast });
       setTimeout(() => navigate('/gecmis-formlar'), 1500); 
     } catch (error) { 

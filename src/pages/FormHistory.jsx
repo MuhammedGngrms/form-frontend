@@ -19,7 +19,7 @@ function FormHistory() {
     const fetchPaginatedForms = async () => {
       setIsLoading(true);
       try {
-        const response = await api.get('/forms/submittedWithPage', {
+        const response = await api.get('/api/forms/submittedWithPage', {
           params: {
             page: currentPage,
             size: pageSize,

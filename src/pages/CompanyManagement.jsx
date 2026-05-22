@@ -23,7 +23,7 @@ function CompanyManagement() {
 
   const fetchCompanies = async () => {
     try {
-      const response = await api.get('/companies');
+      const response = await api.get('/api/companies');
       setCompanies(response.data);
     } catch (error) { toast.error("Şirket listesi yüklenemedi!"); }
   };
@@ -56,7 +56,7 @@ function CompanyManagement() {
     setIsSubmitting(true);
     const loadToast = toast.loading("Yeni firma sisteme ekleniyor...");
     try {
-      await api.post('/companies', { 
+      await api.post('/api/companies', { 
         name: newCompanyName, 
         email: newCompanyEmail,
         logo: newCompanyLogo,
@@ -83,7 +83,7 @@ function CompanyManagement() {
     if (!editingData.name.trim()) { toast.error("Firma adı boş bırakılamaz!"); return; }
     const loadToast = toast.loading("Firma güncelleniyor...");
     try {
-      await api.put(`/companies/${id}`, { 
+      await api.put(`/api/companies/${id}`, { 
         name: editingData.name,
         email: editingData.email,
         logo: editingData.logo
@@ -97,7 +97,7 @@ function CompanyManagement() {
   const confirmTogglePassive = async (id) => {
     const loadToast = toast.loading("Firma pasife alınıyor...");
     try {
-      await api.delete(`/companies/${id}`);
+      await api.delete(`/api/companies/${id}`);
       toast.success("Firma pasif yapıldı.", { id: loadToast });
       setConfirmingId(null);
       fetchCompanies();
@@ -107,7 +107,7 @@ function CompanyManagement() {
   const handleToggleActive = async (company) => {
     const loadToast = toast.loading("Firma aktif ediliyor...");
     try {
-      await api.put(`/companies/${company.id}`, { name: company.name, status: 'S' });
+      await api.put(`/api/companies/${company.id}`, { name: company.name, status: 'S' });
       toast.success("Firma yeniden aktif edildi.", { id: loadToast });
       fetchCompanies();
     } catch (error) { toast.error("Aktif etme başarısız!", { id: loadToast }); }
